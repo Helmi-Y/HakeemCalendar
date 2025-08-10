@@ -1,0 +1,13 @@
+<h2>{{month}} {{year}}</h2>
+
+<div class="calendar-grid">
+  <div *ngFor="let day of days" class="calendar-day">
+    <div class="day-number">{{day}}</div>
+
+    <div *ngFor="let app of getAppointmentsForDay(day)" class="appointment">
+        <strong>{{app.time || ''}}</strong> {{app.title}}<br />
+        <em *ngIf="app.description">{{app.description}}</em><br />
+        <small *ngIf="app.location">Location: {{app.location}}</small><br/>
+        <small>------------</small>
+      </div>
+      

@@ -26,6 +26,13 @@ export class Calendar implements OnInit{
   appointments: Appointment[] = [
     { 
       date: 12, 
+      title: 'Outpatient Eval', 
+      time: '9:15 AM',
+      description: '',
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+    },
+    { 
+      date: 12, 
       title: 'Trauma Surgery', 
       time: '13:30 AM',
       description: '',

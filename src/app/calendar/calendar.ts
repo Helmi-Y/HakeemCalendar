@@ -54,10 +54,31 @@ export class Calendar implements OnInit{
     },
     { 
       date: 14, 
-      title: '', 
-      time: 'Helmi goes back to Arkansas',
+      title: 'Physical Therapy', 
+      time: '7:10 AM',
+      description: 'PT with Michael Metzelaar. Arrive by 7:00 AM',
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+    },
+    { 
+      date: 14, 
+      title: 'Helmi goes back to Arkansas', 
+      time: '15:19 PM',
       description: '',
       location: 'Denver International Airport'
+    },
+    { 
+      date: 15, 
+      title: 'Occupational Therapy Eval', 
+      time: '7:10 AM',
+      description: 'OT Eval with Grace Conner. Arrive by 6:40 AM ',
+      location: 'St. Anthony\'s hospital. Room 300'
+    },
+    { 
+      date: 15, 
+      title: 'Speech Therapy Eval', 
+      time: '7:50 AM',
+      description: 'Speech Eval with Erica Hildreth. Arrive by 7:20 AM ',
+      location: 'St. Anthony\'s hospital. Room 300'
     },
     { 
       date: 15, 

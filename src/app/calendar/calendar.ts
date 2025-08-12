@@ -71,14 +71,14 @@ export class Calendar implements OnInit{
       title: 'Occupational Therapy Eval', 
       time: '7:10 AM',
       description: 'OT Eval with Grace Conner. Arrive by 6:40 AM ',
-      location: 'St. Anthony\'s hospital. Room 300'
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
     },
     { 
       date: 15, 
       title: 'Speech Therapy Eval', 
       time: '7:50 AM',
       description: 'Speech Eval with Erica Hildreth. Arrive by 7:20 AM ',
-      location: 'St. Anthony\'s hospital. Room 300'
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
     },
     { 
       date: 15, 
@@ -86,6 +86,13 @@ export class Calendar implements OnInit{
       time: 'Audry Discharge Date!',
       description: '',
       location: 'St. Anthony\'s hospital. Room 300'
+    },
+    { 
+      date: 18, 
+      title: 'X-ray for Neuro', 
+      time: '8:00 AM',
+      description: 'Go to X-ray for cervical and lumbar spine. Flexible between 18-25 Aug. ',
+      location: 'St. Anthony\'s hospital. Med Plaza 2 Room 150'
     },
     { 
       date: 20, 

@@ -101,7 +101,7 @@ export class Calendar implements OnInit{
       title: 'Ortho(Hand) Surgery', 
       time: '12:40 PM',
       description: '',
-      location: 'St. Anthony\'s hospital. Med Plaza 1 Suite 360'
+      location: 'Panorma Orthopedics & Spine Center - Golden'
     },
     { 
       date: 25, 

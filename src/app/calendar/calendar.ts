@@ -128,7 +128,7 @@ export class Calendar implements OnInit{
       date: 25, 
       title: 'Neuro Surgery', 
       time: '11:00 AM',
-      description: 'Dino Cairo (Neurologist) will meet right after the apointment so ask about it. Dr. Tara Kane (Neuropsychologist) will be scheduled soon. Assistant: Kim - 720-321-8062',
+      description: 'Dino Cairo (Neurologist) will meet right after the apointment so ask about it. Assistant: Kim - 720-321-8062',
       location: 'St. Anthony\'s hospital. Med Plaza 1 Suite 255'
     }
   ];

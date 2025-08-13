@@ -97,11 +97,32 @@ export class Calendar implements OnInit{
       location: 'St. Anthony\'s hospital. Med Plaza 2 Room 150'
     },
     { 
+      date: 19, 
+      title: 'Physical Therapy', 
+      time: '10:00 AM',
+      description: 'PT with Zachary Chandler. Arrive by 9:50 AM',
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+    },
+    { 
       date: 20, 
       title: 'Ortho(Hand) Surgery', 
       time: '12:40 PM',
       description: '',
       location: 'Panorma Orthopedics & Spine Center - Golden'
+    },
+    { 
+      date: 22, 
+      title: 'Physical Therapy', 
+      time: '10:00 AM',
+      description: 'PT with Michael Metzelaar. Arrive by 9:50 AM',
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+    },
+    { 
+      date: 22, 
+      title: 'Follow up with Dr. Tara Kane (NeuroPsychologist)', 
+      time: '12:00 PM',
+      description: 'Arrive by 11:45 AM',
+      location: 'St. Anthony\'s hospital. Med Plaza 1 Suite 255'
     },
     { 
       date: 25, 

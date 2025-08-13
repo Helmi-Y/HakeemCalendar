@@ -8,6 +8,7 @@ interface Appointment {
   time?: string; // optional time
   description?: string;
   location?: string;
+  
 }
 
 @Component({
@@ -22,6 +23,7 @@ export class Calendar implements OnInit{
   month: string = 'August';
   year: number = new Date().getFullYear();
   daysInMonth: number = 31;  // August always has 31 days
+  weeks: (number | null)[][] = [];
 
   appointments: Appointment[] = [
     { 
@@ -113,8 +115,38 @@ export class Calendar implements OnInit{
   days: number[] = [];
 
   ngOnInit(): void {
-    // Fill days array [1..31]
-    this.days = Array.from({ length: this.daysInMonth }, (_, i) => i + 1);
+    const year = this.year;
+    const monthIndex = 7; // August = 7 (0-based: Jan=0)
+    const firstDay = new Date(year, monthIndex, 1).getDay(); // Sunday=0, Monday=1...
+    const daysInMonth = this.daysInMonth;
+  
+    // Shift so Monday is first column
+    let startOffset = (firstDay === 0 ? 6 : firstDay - 1);
+  
+    const totalCells = startOffset + daysInMonth;
+    const weeks: (number | null)[][] = [];
+    let week: (number | null)[] = [];
+  
+    for (let i = 0; i < startOffset; i++) {
+      week.push(null); // empty cell before month start
+    }
+  
+    for (let day = 1; day <= daysInMonth; day++) {
+      week.push(day);
+      if (week.length === 7) {
+        weeks.push(week);
+        week = [];
+      }
+    }
+  
+    if (week.length > 0) {
+      while (week.length < 7) {
+        week.push(null); // empty cells after month end
+      }
+      weeks.push(week);
+    }
+  
+    this.weeks = weeks;
   }
 
   getAppointmentsForDay(day: number): Appointment[] {

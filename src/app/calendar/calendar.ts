@@ -98,6 +98,13 @@ export class Calendar implements OnInit{
     },
     { 
       date: 19, 
+      title: 'Occupational Therapy', 
+      time: '07:50 AM',
+      description: 'OT with  Grace Conner. Arrive by 07:40 AM',
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+    },
+    { 
+      date: 19, 
       title: 'Physical Therapy', 
       time: '10:00 AM',
       description: 'PT with Zachary Chandler. Arrive by 9:50 AM',
@@ -111,10 +118,17 @@ export class Calendar implements OnInit{
       location: 'Panorma Orthopedics & Spine Center - Golden'
     },
     { 
-      date: 22, 
+      date: 21, 
       title: 'Physical Therapy', 
-      time: '10:00 AM',
-      description: 'PT with Michael Metzelaar. Arrive by 9:50 AM',
+      time: '08:35 AM',
+      description: 'PT with Michael Metzelaar. Arrive by 08:25 AM',
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+    },
+    { 
+      date: 21, 
+      title: 'Speech Therapy', 
+      time: '09:15 AM',
+      description: 'Speech with Erica Hildreth. Arrive by 09:05 AM',
       location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
     },
     { 
@@ -130,7 +144,42 @@ export class Calendar implements OnInit{
       time: '11:00 AM',
       description: 'Dino Cairo (Neurologist) will meet right after the apointment so ask about it. Assistant: Kim - 720-321-8062',
       location: 'St. Anthony\'s hospital. Med Plaza 1 Suite 255'
-    }
+    },
+    { 
+      date: 26, 
+      title: 'Occupational Therapy', 
+      time: '07:50 AM',
+      description: 'OT with  Grace Conner. Arrive by 07:40 AM',
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+    },
+    { 
+      date: 26, 
+      title: 'Speech Therapy', 
+      time: '08:35 AM',
+      description: 'Speech with  Tara Sampson. Arrive by 08:25 AM',
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+    },
+    { 
+      date: 26, 
+      title: 'Physical Therapy', 
+      time: '10:00 AM',
+      description: 'PT with  Anthony Ippolito. Arrive by 09:50 AM',
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+    },
+    { 
+      date: 29, 
+      title: 'Speech Therapy', 
+      time: '08:35 AM',
+      description: 'Speech with Erica Hildreth. Arrive by 08:25 AM',
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+    },
+    { 
+      date: 29, 
+      title: 'Physical Therapy', 
+      time: '09:15 AM',
+      description: 'PT with  Anthony Ippolito. Arrive by 09:05 AM',
+      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+    },
   ];
   
   days: number[] = [];

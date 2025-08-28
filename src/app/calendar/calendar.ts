@@ -168,18 +168,18 @@ export class Calendar implements OnInit{
     },
     { 
       date: 29, 
-      title: 'Speech Therapy', 
-      time: '08:35 AM',
-      description: 'Speech with Erica Hildreth. Arrive by 08:25 AM',
-      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
+      title: 'Occupational Therapy', 
+      time: '11:30 AM',
+      description: 'Occupational Therapy  with RWW',
+      location: 'Home'
     },
     { 
       date: 29, 
-      title: 'Physical Therapy', 
-      time: '09:15 AM',
-      description: 'PT with  Anthony Ippolito. Arrive by 09:05 AM',
-      location: 'St. Anthony\'s hospital. Med Plaza 3 Suite 300'
-    },
+      title: 'Speech Therapy', 
+      time: '3:00 PM',
+      description: 'Speech Therapy  with RWW',
+      location: 'Home'
+    }
   ];
   
   days: number[] = [];

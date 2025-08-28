@@ -179,7 +179,14 @@ export class Calendar implements OnInit{
       time: '3:00 PM',
       description: 'Speech Therapy  with RWW',
       location: 'Home'
-    }
+    },
+    { 
+      date: 29, 
+      title: 'Helmi Land', 
+      time: '4:55 PM',
+      description: 'Helmi land from Arkansas',
+      location: 'Denver Airport'
+    },
   ];
   
   days: number[] = [];
